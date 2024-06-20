@@ -6,6 +6,8 @@ import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Read from './pages/Read';
 import Update from './pages/Update';
+import Page from './pages/Page';
+import Toggle from './pages/Toggle';
 function App() {
   return (
     <Router>
@@ -16,6 +18,8 @@ function App() {
              <Route path='/update' element={<Update/>}/>
              <Route path='/login' element={<Login/>}/>
              <Route path='/signup' element={<Signup/>}/>
+             <Route path='/page' element={<Page/>}/>
+             <Route path='/toggle' element={<Toggle/>}/>
       </Routes> 
     </Router>
   );

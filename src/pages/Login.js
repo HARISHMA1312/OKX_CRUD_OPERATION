@@ -76,6 +76,7 @@ export default function Login() {
                       className='btn btn-primary w-100 mb-3 nxt-btn'
                       type="submit"
                       disabled={isSubmitting}
+                      onClick={()=>window.location.href='/Toggle'}
                     >
                       Log In
                     </button>
